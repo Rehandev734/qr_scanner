@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_radius_sm">12dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_elevation_sm">2dp</dimen>
+    <dimen name="button_radius">12dp</dimen>
+
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_title_lg">28sp</dimen>
+    <dimen name="text_subtitle">18sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_body_sm">13sp</dimen>
+    <dimen name="text_caption">18sp</dimen>
+    <dimen name="text_overline">11sp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_lg">40dp</dimen>
+    <dimen name="icon_size_xl">48dp</dimen>
+    <dimen name="scan_button_size">80dp</dimen>
+    <dimen name="scanner_frame_size">250dp</dimen>
+
+    <dimen name="quick_action_icon_size">28dp</dimen>
+    <dimen name="scan_item_icon_size">36dp</dimen>
+    <dimen name="fab_size">60dp</dimen>
+    <dimen name="home_toolbar_height">56dp</dimen>
+
+    <dimen name="settings_section_gap">28dp</dimen>
+    <dimen name="settings_item_vertical">14dp</dimen>
+
+    <dimen name="splash_logo_size">96dp</dimen>
+
+    <!-- Sprint 5.1: Premium Home Dashboard -->
+    <dimen name="hero_card_radius">20dp</dimen>
+    <dimen name="hero_card_padding">24dp</dimen>
+    <dimen name="stat_card_radius">14dp</dimen>
+    <dimen name="stat_icon_size">36dp</dimen>
+    <dimen name="settings_button_size">44dp</dimen>
+    <dimen name="header_greeting_size">14sp</dimen>
+    <dimen name="hero_icon_size">64dp</dimen>
+    <dimen name="empty_state_icon_size">96dp</dimen>
+    <dimen name="scan_item_icon_bg_size">40dp</dimen>
+    <dimen name="badge_padding_h">8dp</dimen>
+    <dimen name="badge_padding_v">3dp</dimen>
+    <dimen name="badge_radius">4dp</dimen>
+    <dimen name="stat_value_size">22sp</dimen>
+    <dimen name="stat_label_size">12sp</dimen>
+    <dimen name="quick_action_desc_size">12sp</dimen>
+
+    <!-- Sprint 5.2: Premium Scanner Screen -->
+    <dimen name="scanner_frame_size_premium">280dp</dimen>
+    <dimen name="scanner_corner_size">32dp</dimen>
+    <dimen name="scanner_corner_stroke">4dp</dimen>
+    <dimen name="scanner_corner_radius">16dp</dimen>
+    <dimen name="scanner_top_bar_padding_h">12dp</dimen>
+    <dimen name="scanner_top_bar_padding_v">8dp</dimen>
+    <dimen name="scanner_bottom_panel_padding">16dp</dimen>
+    <dimen name="scanner_floating_button_size">44dp</dimen>
+    <dimen name="scanner_permission_icon_size">96dp</dimen>
+    <dimen name="scanner_permission_card_radius">24dp</dimen>
+    <dimen name="scanner_permission_card_padding">32dp</dimen>
+    <dimen name="scanner_tip_padding_h">16dp</dimen>
+    <dimen name="scanner_tip_padding_v">8dp</dimen>
+    <dimen name="scanner_tip_text_size">13sp</dimen>
+    <dimen name="scanner_action_button_size">56dp</dimen>
+    <dimen name="scanner_action_icon_size">28dp</dimen>
+
+    <!-- Sprint 5.4: Premium QR Generator -->
+    <dimen name="generator_header_padding_top">20dp</dimen>
+    <dimen name="generator_header_padding_bottom">8dp</dimen>
+    <dimen name="generator_preview_radius">24dp</dimen>
+    <dimen name="generator_preview_size">240dp</dimen>
+    <dimen name="generator_preview_padding">24dp</dimen>
+    <dimen name="generator_preview_elevation">8dp</dimen>
+    <dimen name="generator_input_card_padding">16dp</dimen>
+    <dimen name="generator_input_card_radius">16dp</dimen>
+    <dimen name="generator_section_padding">16dp</dimen>
+    <dimen name="generator_section_radius">16dp</dimen>
+    <dimen name="generator_chip_radius">20dp</dimen>
+    <dimen name="generator_chip_padding_h">16dp</dimen>
+    <dimen name="generator_chip_padding_v">8dp</dimen>
+    <dimen name="generator_chip_height">40dp</dimen>
+    <dimen name="generator_preset_size">44dp</dimen>
+    <dimen name="generator_preset_ring_width">2dp</dimen>
+    <dimen name="generator_icon_circle_size">44dp</dimen>
+    <dimen name="generator_button_radius">16dp</dimen>
+    <dimen name="generator_button_height">56dp</dimen>
+    <dimen name="generator_empty_size">120dp</dimen>
+    <dimen name="generator_detail_qr_size">220dp</dimen>
+    <dimen name="generator_detail_card_radius">16dp</dimen>
+    <dimen name="generator_detail_action_size">72dp</dimen>
+    <dimen name="generator_bottom_sheet_radius">24dp</dimen>
+    <dimen name="generator_header_title_size">26sp</dimen>
+    <dimen name="generator_header_subtitle_size">14sp</dimen>
+    <dimen name="generator_section_title_size">16sp</dimen>
+    <dimen name="generator_chip_text_size">13sp</dimen>
+    <dimen name="generator_empty_text_size">16sp</dimen>
+
+    <!-- Sprint 5.5: Premium Settings & About -->
+    <dimen name="settings_hero_radius">24dp</dimen>
+    <dimen name="settings_hero_padding">24dp</dimen>
+    <dimen name="settings_hero_icon_size">64dp</dimen>
+    <dimen name="settings_hero_title_size">28sp</dimen>
+    <dimen name="settings_hero_subtitle_size">14sp</dimen>
+    <dimen name="settings_hero_tagline_size">13sp</dimen>
+    <dimen name="settings_section_radius">20dp</dimen>
+    <dimen name="settings_section_padding">16dp</dimen>
+    <dimen name="settings_section_title_size">13sp</dimen>
+    <dimen name="settings_item_padding_v">14dp</dimen>
+    <dimen name="settings_item_padding_h">16dp</dimen>
+    <dimen name="settings_item_icon_size">24dp</dimen>
+    <dimen name="settings_item_title_size">15sp</dimen>
+    <dimen name="settings_item_subtitle_size">12sp</dimen>
+    <dimen name="settings_item_radius">12dp</dimen>
+    <dimen name="settings_theme_card_radius">14dp</dimen>
+    <dimen name="settings_theme_card_size">96dp</dimen>
+    <dimen name="settings_icon_bg_size">40dp</dimen>
+    <dimen name="settings_icon_bg_radius">12dp</dimen>
+    <dimen name="settings_divider_inset">56dp</dimen>
+    <dimen name="about_hero_radius">24dp</dimen>
+    <dimen name="about_app_icon_size">80dp</dimen>
+    <dimen name="about_feature_icon_size">36dp</dimen>
+    <dimen name="about_tech_chip_radius">16dp</dimen>
+    <dimen name="about_tech_chip_padding_h">12dp</dimen>
+    <dimen name="about_tech_chip_padding_v">6dp</dimen>
+    <dimen name="about_tech_chip_text_size">12sp</dimen>
+
+    <!-- Sprint 5.3: Premium History & Favorites -->
+    <dimen name="history_search_radius">14dp</dimen>
+    <dimen name="history_search_height">48dp</dimen>
+    <dimen name="history_chip_radius">20dp</dimen>
+    <dimen name="history_chip_padding_h">16dp</dimen>
+    <dimen name="history_chip_padding_v">8dp</dimen>
+    <dimen name="history_item_radius">16dp</dimen>
+    <dimen name="history_item_padding_h">16dp</dimen>
+    <dimen name="history_item_padding_v">14dp</dimen>
+    <dimen name="history_item_icon_size">44dp</dimen>
+    <dimen name="history_type_badge_radius">12dp</dimen>
+    <dimen name="history_type_badge_padding_h">10dp</dimen>
+    <dimen name="history_type_badge_padding_v">4dp</dimen>
+    <dimen name="history_empty_radius">20dp</dimen>
+    <dimen name="history_empty_icon_size">80dp</dimen>
+    <dimen name="history_segmented_radius">14dp</dimen>
+    <dimen name="history_segmented_height">44dp</dimen>
+    <dimen name="history_header_icon_size">32dp</dimen>
+    <dimen name="history_fav_icon_size">40dp</dimen>
+    <dimen name="history_delete_icon_size">40dp</dimen>
+</resources>

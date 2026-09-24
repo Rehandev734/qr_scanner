@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Dark Theme Color System -->
+    <!-- Premium green palette for dark mode -->
+
+    <!-- Primary -->
+    <color name="primary">#88D99E</color>
+    <color name="on_primary">#003917</color>
+    <color name="primary_container">#005229</color>
+    <color name="on_primary_container">#A3F5B8</color>
+
+    <!-- Secondary -->
+    <color name="secondary">#B5CCBB</color>
+    <color name="on_secondary">#213528</color>
+    <color name="secondary_container">#374B3D</color>
+    <color name="on_secondary_container">#D1E8D5</color>
+
+    <!-- Tertiary -->
+    <color name="tertiary">#A2CDDB</color>
+    <color name="on_tertiary">#02363F</color>
+    <color name="tertiary_container">#204C56</color>
+    <color name="on_tertiary_container">#BDE9F8</color>
+
+    <!-- Error -->
+    <color name="error">#FFB4AB</color>
+    <color name="on_error">#690005</color>
+    <color name="error_container">#93000A</color>
+    <color name="on_error_container">#FFDAD6</color>
+
+    <!-- Background & Surface -->
+    <color name="background">#111411</color>
+    <color name="on_background">#E1E3DD</color>
+    <color name="surface">#111411</color>
+    <color name="on_surface">#E1E3DD</color>
+    <color name="surface_variant">#414941</color>
+    <color name="on_surface_variant">#C1C9BE</color>
+    <color name="surface_container">#1D201C</color>
+    <color name="surface_container_low">#171A16</color>
+    <color name="surface_container_high">#272B26</color>
+
+    <!-- Outline -->
+    <color name="outline">#8B9389</color>
+    <color name="outline_variant">#414941</color>
+
+    <!-- Inverse -->
+    <color name="inverse_surface">#E1E3DD</color>
+    <color name="inverse_on_surface">#191D19</color>
+    <color name="inverse_primary">#1A6B3A</color>
+
+    <!-- Legacy aliases for backward compatibility -->
+    <color name="primary_variant">#6BC285</color>
+    <color name="primary_light">#A8DBA0</color>
+    <color name="primary_muted">#72C48A</color>
+    <color name="secondary_variant">#9AB8A8</color>
+
+    <!-- Semantic Colors -->
+    <color name="scanner_overlay">#CC000000</color>
+    <color name="scanner_frame">#4CDB72</color>
+    <color name="url_color">#64B5F6</color>
+    <color name="phone_color">#81C784</color>
+    <color name="email_color">#EF9A9A</color>
+    <color name="wifi_color">#CE93D8</color>
+    <color name="contact_color">#FFB74D</color>
+    <color name="text_color">#BDBDBD</color>
+    <color name="favorite_star">#FFD54F</color>
+    <color name="divider">#3A3E39</color>
+
+    <!-- Component Colors -->
+    <color name="quick_action_bg">#1A2E1C</color>
+    <color name="quick_action_icon">#88D99E</color>
+    <color name="section_header_text">#88D99E</color>
+    <color name="see_all_text">#6BCF88</color>
+    <color name="greeting_text">#8A9188</color>
+    <color name="fab_color">#88D99E</color>
+    <color name="empty_state_text">#6B7368</color>
+
+    <!-- Scanned / Generated labels -->
+    <color name="scan_label_color">#88D99E</color>
+    <color name="generated_label_color">#A2CDDB</color>
+
+    <!-- Sprint 5.1: Home Dashboard Specific (Dark) -->
+    <color name="hero_card_start">#005229</color>
+    <color name="hero_card_end">#1A6B3A</color>
+    <color name="hero_button_bg">#A3F5B8</color>
+    <color name="stat_scans_bg">#1A2E1C</color>
+    <color name="stat_generated_bg">#1A2E2E</color>
+    <color name="stat_favorites_bg">#2E2A1A</color>
+    <color name="stat_today_bg">#1A2A2E</color>
+    <color name="empty_state_icon_tint">#414941</color>
+    <color name="quick_action_icon_bg_scan">#1A2E1C</color>
+    <color name="quick_action_icon_bg_generate">#1A2E2E</color>
+    <color name="quick_action_icon_bg_gallery">#1A2A2E</color>
+    <color name="quick_action_icon_bg_history">#2E2A1A</color>
+
+    <!-- Sprint 5.2: Premium Scanner Screen (Dark) -->
+    <color name="scanner_top_bar_bg">#CC000000</color>
+    <color name="scanner_bottom_panel_bg">#CC000000</color>
+    <color name="scanner_permission_icon_bg">#1A4CDB72</color>
+    <color name="scanner_success_flash">#404CDB72</color>
+    <color name="scanner_tip_bg">#33FFFFFF</color>
+    <color name="scanner_tip_border">#22FFFFFF</color>
+    <color name="scanner_flash_active">#FFE082</color>
+    <color name="scanner_flash_icon_active">#FFEB3B</color>
+    <color name="scanner_permission_text">#FFFFFF</color>
+    <color name="scanner_permission_subtext">#B3FFFFFF</color>
+
+    <!-- Sprint 5.4: Premium QR Generator (Dark) -->
+    <color name="generator_preview_start">#1B3A1D</color>
+    <color name="generator_preview_end">#0D2812</color>
+    <color name="generator_preview_surface">#1E1E1E</color>
+    <color name="generator_input_card_bg">#2A2A2A</color>
+    <color name="generator_input_card_border">#3A3A3A</color>
+    <color name="generator_section_bg">#1E1E1E</color>
+    <color name="generator_chip_selected_bg">#88D99E</color>
+    <color name="generator_chip_unselected_bg">#2A2A2A</color>
+    <color name="generator_chip_border">#3A3A3A</color>
+    <color name="generator_chip_selected_text">#003917</color>
+    <color name="generator_chip_unselected_text">#AAAAAA</color>
+    <color name="generator_preset_ring_selected">#88D99E</color>
+    <color name="generator_preset_ring_default">#3A3A3A</color>
+    <color name="generator_icon_circle_bg">#333333</color>
+    <color name="generator_generate_btn_start">#2E9E52</color>
+    <color name="generator_generate_btn_end">#4CDB72</color>
+    <color name="generator_empty_bg">#1A1A1A</color>
+    <color name="generator_empty_border">#3A3A3A</color>
+    <color name="generator_detail_qr_bg">#2A2A2A</color>
+    <color name="generator_detail_card_bg">#2A2A2A</color>
+    <color name="generator_detail_card_border">#3A3A3A</color>
+    <color name="generator_header_subtitle">#888888</color>
+    <color name="generator_section_title">#E0E0E0</color>
+    <color name="generator_action_copy_bg">#1A2A3A</color>
+    <color name="generator_action_share_bg">#1A2E1C</color>
+    <color name="generator_action_save_bg">#2E2A1A</color>
+    <color name="generator_action_fav_bg">#2E2A1A</color>
+    <color name="generator_action_delete_bg">#2E1A1A</color>
+    <color name="generator_bottom_sheet_handle">#555555</color>
+
+    <!-- Sprint 5.5: Premium Settings & About (Dark) -->
+    <color name="settings_hero_start">#1B3A1D</color>
+    <color name="settings_hero_end">#0D2812</color>
+    <color name="settings_hero_text_primary">#88D99E</color>
+    <color name="settings_hero_text_secondary">#6BCF88</color>
+    <color name="settings_section_bg">#1E1E1E</color>
+    <color name="settings_section_title">#E0E0E0</color>
+    <color name="settings_icon_bg">#333333</color>
+    <color name="settings_item_bg">#2A2A2A</color>
+    <color name="settings_theme_card_bg">#2A2A2A</color>
+    <color name="settings_theme_card_border">#3A3A3A</color>
+    <color name="settings_theme_card_selected_bg">#1A2E1C</color>
+    <color name="settings_theme_card_selected_border">#88D99E</color>
+    <color name="settings_switch_track_on">#88D99E</color>
+    <color name="settings_divider">#333333</color>
+    <color name="settings_subtitle">#888888</color>
+    <color name="settings_version_badge_bg">#88D99E</color>
+    <color name="about_hero_start">#1A6B3A</color>
+    <color name="about_hero_end">#005229</color>
+    <color name="about_app_icon_bg">#FFFFFF</color>
+    <color name="about_feature_icon_bg">#1A2E1C</color>
+    <color name="about_tech_chip_bg">#333333</color>
+    <color name="about_tech_chip_text">#E0E0E0</color>
+    <color name="about_action_bg">#2A2A2A</color>
+
+    <!-- Sprint 5.3: Premium History & Favorites (Dark) -->
+    <color name="history_hero_start">#0D2812</color>
+    <color name="history_hero_end">#1B3A1D</color>
+    <color name="history_hero_text_primary">#88D99E</color>
+    <color name="history_hero_text_secondary">#6BCF88</color>
+    <color name="history_search_bg">#1E1E1E</color>
+    <color name="history_search_stroke">#333333</color>
+    <color name="history_chip_selected_bg">#88D99E</color>
+    <color name="history_chip_selected_border">#88D99E</color>
+    <color name="history_chip_selected_text">#000000</color>
+    <color name="history_chip_unselected_bg">#2A2A2A</color>
+    <color name="history_chip_unselected_border">#3A3A3A</color>
+    <color name="history_chip_unselected_text">#999999</color>
+    <color name="history_item_bg">#1E1E1E</color>
+    <color name="history_item_selected_bg">#1A2E1C</color>
+    <color name="history_item_selected_border">#88D99E</color>
+    <color name="history_type_badge_bg">#1A2E1C</color>
+    <color name="history_empty_state_stroke">#444444</color>
+    <color name="history_empty_icon_bg">#2A2A2A</color>
+    <color name="history_segmented_bg">#1E1E1E</color>
+    <color name="history_segmented_selected_bg">#88D99E</color>
+    <color name="history_segmented_selected_text">#000000</color>
+    <color name="history_segmented_unselected_text">#999999</color>
+    <color name="favorites_hero_start">#2E1A0A</color>
+    <color name="favorites_hero_end">#1F1208</color>
+    <color name="favorites_hero_text_primary">#FFB74D</color>
+    <color name="favorites_hero_text_secondary">#FFA726</color>
+    <color name="favorites_item_bg">#1E1E1E</color>
+    <color name="favorites_empty_icon_bg">#2A2A1A</color>
+    <color name="favorites_star_active">#FFC107</color>
+    <color name="favorites_star_inactive">#555555</color>
+</resources>

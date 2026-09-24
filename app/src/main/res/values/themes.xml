@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Scanify" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorSurfaceContainer">@color/surface_container</item>
+        <item name="colorSurfaceContainerLow">@color/surface_container_low</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_container_high</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- Inverse -->
+        <item name="colorSurfaceInverse">@color/inverse_surface</item>
+        <item name="colorOnSurfaceInverse">@color/inverse_on_surface</item>
+        <item name="colorPrimaryInverse">@color/inverse_primary</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="CardStyle" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="contentPadding">@dimen/spacing_md</item>
+    </style>
+
+    <style name="CardStyleSmall" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/card_radius_sm</item>
+        <item name="cardElevation">@dimen/card_elevation_sm</item>
+        <item name="contentPadding">@dimen/spacing_sm</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="PrimaryButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+
+    <style name="PrimaryTonalButton" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+
+    <style name="OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+
+    <style name="TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+
+    <!-- Scan Button (FAB-sized circular) -->
+    <style name="ScanButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">@dimen/scan_button_size</item>
+        <item name="android:layout_width">@dimen/scan_button_size</item>
+        <item name="android:layout_height">@dimen/scan_button_size</item>
+    </style>
+
+    <!-- Input Field -->
+    <style name="InputField" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/button_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/button_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/button_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/button_radius</item>
+    </style>
+
+    <!-- Chip Style -->
+    <style name="FilterChip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">@dimen/card_radius</item>
+    </style>
+
+    <!-- Switch Style (uses default Material3) -->
+
+    <!-- Toolbar -->
+    <style name="AppToolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.Material3.TitleLarge</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="AppDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <!-- Uses Material3 dialog defaults -->
+    </style>
+
+    <!-- Bottom Sheet -->
+    <style name="AppBottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <!-- Uses Material3 bottom sheet defaults -->
+    </style>
+</resources>
